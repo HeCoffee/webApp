@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  color: white;
+  background: #8e488e;
+  position: fixed;
+  top: 0px;
+  font-size: 22px;
+}
+header b {
+  display: inline-block;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+header span {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 10%;
+  height: 48px;
+  line-height: 48px !important;
+  text-align: center;
+}
+
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 48px;
+  bottom: 48px;
+  background: #f1f5f6;
+  /* Prevent native touch events on Windows */
+  -ms-touch-action: none;
+  /* Prevent the callout on tap-hold and text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent text resize on orientation change, useful for web-apps */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+#wrapper .swiper_box {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+#wrapper .swiper_box img {
+  width: 100%;
+  display: block;
+}
+#wrapper .ad_box {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1%;
+}
+#wrapper .ad_box img {
+  display: block;
+  width: 100%;
+}
+#wrapper .kinds_box {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0% 1%;
+  overflow: hidden;
+}
+#wrapper .kinds_box a {
+  width: 100%;
+  padding: 1%;
+}
+#wrapper .kinds_box a img {
+  display: block;
+  width: 100%;
+}
+#wrapper #scroller {
+  /* Prevent elements to be highlighted on tap */
+  -webkit-tap-highlight-color: transparent;
+  /* Put the scroller into the HW Compositing layer right from the start */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 100;
+  padding: 80% 0%;
+}
+
+.product_box {
+  width: 100%;
+}
+.product_box ul {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.product_box li {
+  list-style: none;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  padding: 2%;
+  box-sizing: border-box;
+  margin: 1% 0%;
+  background: white;
+}
+.product_box li a {
+  width: 100%;
+}
+.product_box li img {
+  width: 100%;
+}
+.product_box li p {
+  color: #616b7f;
+}
+.product_box li span {
+  color: #e80080;
+}
+
+/*# sourceMappingURL=index.css.map */

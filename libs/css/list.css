@@ -1,0 +1,189 @@
+header {
+  width: 100%;
+  height: 96px;
+  position: absolute;
+  top: 0px;
+}
+header .head_top {
+  width: 100%;
+  height: 48px;
+  background: #8e488e;
+}
+header .head_top b {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 48px;
+  line-height: 48px;
+  font-weight: normal;
+  font-size: 16px;
+}
+header .head_top span {
+  display: block;
+  width: 10%;
+  height: 48px;
+  position: absolute;
+  top: 0px;
+  line-height: 48px;
+  text-align: center;
+}
+header .head_top span a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+header .head_top span i.fa {
+  color: white;
+  font-size: 16px;
+}
+header .head_top span:nth-child(3) {
+  right: 0px;
+}
+header .head_class {
+  width: 100%;
+  height: 48px;
+  background: #F7F7F7;
+  padding: 15px 0px;
+}
+header .head_class div {
+  text-align: center;
+}
+header .head_class div:nth-child(2) {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+#wrapperBox {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  top: 96px;
+  bottom: 48px;
+  background: #f1f5f6;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  /* Prevent native touch events on Windows */
+  -ms-touch-action: none;
+  /* Prevent the callout on tap-hold and text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent text resize on orientation change, useful for web-apps */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+#wrapperBox #scroller {
+  width: 100%;
+  overflow: hidden;
+  /* Prevent elements to be highlighted on tap */
+  -webkit-tap-highlight-color: transparent;
+  /* Put the scroller into the HW Compositing layer right from the start */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+#wrapperBox a {
+  width: 48%;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 2%;
+  background: white;
+  margin: 1%;
+}
+#wrapperBox a img {
+  display: block;
+  width: 100%;
+}
+#wrapperBox a div {
+  width: 100%;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#wrapperBox a div:last-child {
+  font-weight: bold;
+  color: #e80080;
+}
+
+.class_box {
+  width: 100%;
+  position: absolute;
+  top: 96px;
+  bottom: 48px;
+  overflow: hidden;
+  background: white;
+  z-index: 10;
+  text-align: center;
+  display: none;
+}
+.class_box div {
+  height: 100%;
+  padding: 0;
+}
+.class_box div:nth-child(1) {
+  background: #e9e9e9;
+}
+.class_box div:nth-child(2) {
+  background: #f2f2f2;
+}
+.class_box div:nth-child(2) ul {
+  display: none;
+}
+.class_box div:nth-child(3) ul {
+  display: none;
+}
+.class_box ul {
+  width: 100%;
+  overflow: hidden;
+}
+.class_box li {
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.class_box .bgf2 {
+  background: #f2f2f2;
+}
+.class_box .bgff {
+  background: white;
+}
+
+.class_box1 {
+  width: 100%;
+  position: absolute;
+  top: 96px;
+  bottom: 48px;
+  overflow: hidden;
+  background: #e9e9e9;
+  z-index: 10;
+  text-align: center;
+  display: none;
+}
+.class_box1 ul {
+  width: 100%;
+}
+.class_box1 li {
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dotted #ccc;
+}
+.class_box1 li img {
+  width: 10%;
+}
+
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>OYA</title>
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="libs/css/font-awesome-4.6.3/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="libs/Swiper-3.3.1/dist/css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="libs/css/common.css" />
+		<link rel="stylesheet" type="text/css" href="libs/css/shopping_cart.css" />
+		<!--js-->
+		<script src="libs/js/jquery-1.12.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/Swiper-3.3.1/dist/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/js/iscroll-probe.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/js/shopping_cart.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<header>
+			<span><a href="#"><i class="fa fa-chevron-left"></i></a></span>
+			<b>购物车</b>
+			<span><i class="fa fa-th-list"></i></span>
+		</header>
+		<!--导航-->
+		<div class="navbox">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="category.html">分类查询</a></li>
+				<li><a href="shopping_cart.html">购物车</a></li>
+				<li><a href="user.html">会员中心</a></li>
+			</ul>
+		</div>
+		<div class="cart_body">
+			<div id="scroller">
+				<div class="item-cart">
+					<div class="check">
+						<i class="fa fa-circle-o"></i>
+					</div>
+					<img src="libs/images/54.jpg"/>
+					<div class="count_box">
+						<div class="count_box_top">斯文印花黑灰色短袖连衣裙</div>
+						<div class="count_box_bottom">
+							<div class="col-xs-4">￥<b>120</b></div>
+							<div class="col-xs-6"><span class="col-xs-4"><i class="fa fa-minus"></i></span><span class="col-xs-4">1</span><span class="col-xs-4"><i class="fa fa-plus"></i></span></div>
+							<div class="col-xs-2"><i class="fa fa-trash"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mask">
+			<div class="mask-box">
+				<div>余额支付</div>
+				<div>微信支付</div>
+			</div>
+		</div>
+		<footer>
+			<a href="#" class="col-xs-3"><i class="fa fa-circle-o"></i>全选</a>
+			<a href="#" class="col-xs-4">支付方式></a>
+			<a href="#" class="col-xs-5">确认并支付(<i>0</i>)</a>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,168 @@
+header {
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  top: 0px;
+  background: #8e488e;
+}
+header b {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 48px;
+  line-height: 48px;
+  font-weight: normal;
+  font-size: 16px;
+}
+header span {
+  display: block;
+  width: 10%;
+  height: 48px;
+  position: absolute;
+  top: 0px;
+  line-height: 48px;
+  text-align: center;
+}
+header span a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+header span i.fa {
+  color: white;
+  font-size: 16px;
+}
+header span:nth-child(3) {
+  right: 0px;
+}
+
+.user-body {
+  position: absolute;
+  width: 100%;
+  top: 48px;
+  bottom: 48px;
+  background: #f1f5f6;
+  overflow: hidden;
+}
+.user-body .user {
+  width: 100%;
+  height: 85px;
+  background: url(../images/61.jpg) center center no-repeat;
+}
+.user-body .user-header {
+  width: 20%;
+  height: 64px;
+  border-radius: 50%;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+.user-body .user-header img {
+  width: 100%;
+  height: 100%;
+}
+.user-body .user-detail {
+  width: 75%;
+  margin-top: 15px;
+  height: 70px;
+  color: white;
+  float: left;
+}
+.user-body .user-detail span {
+  box-sizing: border-box;
+  padding-left: 5%;
+  width: 100%;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.user-body .user-detail img {
+  width: 15px;
+  height: 15px;
+}
+.user-body .user-detail a {
+  position: absolute;
+  color: white;
+  right: 5%;
+  top: 7%;
+}
+.user-body .user-detail a .fa {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.user-body .user-money {
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 5px 2%;
+  background: white;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  margin-bottom: 10px;
+}
+.user-body .user-money div {
+  width: 100%;
+  height: 48px;
+  text-align: center;
+}
+.user-body .user-money div span {
+  display: block;
+  width: 100%;
+}
+.user-body .user-money div span:nth-child(1) {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.user-body .user-money div span:nth-child(2) {
+  height: 18px;
+  line-height: 18px;
+  color: #ccc;
+  font-size: 12px;
+}
+.user-body .user-money div:nth-child(2) {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.user-body .vip {
+  width: 100%;
+  overflow: hidden;
+}
+.user-body .vip a {
+  color: #555;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.user-body .vip a .fa {
+  margin-left: 8px;
+  font-size: 16px;
+}
+.user-body .vip .small-circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fc215e;
+}
+.user-body .vip li:nth-child(2) .small-circle {
+  background: #4fc6ee;
+}
+.user-body .vip li:nth-child(3) .small-circle {
+  background: #ffa64c;
+}
+.user-body .vip .badge {
+  background: #8e488e;
+  float: right;
+}
+
+/*# sourceMappingURL=user.css.map */

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "microsoft yahei";
+}
+
+ul li {
+  list-style: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  position: fixed;
+  bottom: 0px;
+  background: #F7F7F7;
+}
+footer a {
+  display: inline-block;
+  width: 100%;
+  height: 48px;
+  color: black;
+  text-decoration: none;
+}
+footer span {
+  display: inline-block;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  font-size: 12px;
+}
+footer span .fa {
+  font-size: 30px;
+}
+
+.ft_active {
+  color: #8e488e;
+}
+
+.he_top {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  z-index: 10;
+  background: #e80080;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  bottom: 60px;
+  right: 10px;
+  opacity: 0.7;
+  display: none;
+}
+.he_top .fa {
+  font-size: 20px;
+  color: white;
+}
+
+.navbox {
+  width: 32%;
+  background: #484F55;
+  height: 124px;
+  position: absolute;
+  z-index: 11;
+  opacity: 0.9;
+  border-radius: 5px;
+  right: 2%;
+  top: 10%;
+  display: none;
+}
+.navbox ul {
+  margin: 0;
+}
+.navbox li {
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #5B6166;
+}
+.navbox li a {
+  text-decoration: none;
+  color: white;
+}
+.navbox li:last-child {
+  border: none;
+}
+
+.navbox:before {
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent #484F55 transparent;
+  border-width: 8px;
+  position: absolute;
+  top: -15px;
+  right: 10px;
+}
+
+/*# sourceMappingURL=common.css.map */

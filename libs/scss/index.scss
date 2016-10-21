@@ -1,0 +1,180 @@
+$bg8e:#8e488e;
+$bgf7:#F7F7F7;
+$gbf1:#f1f5f6;
+header{
+    display: flex;
+    width: 100%;
+    height: 48px;
+    color: white;
+    background: $bg8e;
+    position: fixed;
+    top: 0px;
+    font-size: 22px;
+    b{
+        display: inline-block;
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        
+    }
+    span{
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        width: 10%;
+        height: 48px;
+        line-height: 48px!important;
+        text-align: center;
+        
+    }
+}
+
+
+#wrapper{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 48px;
+    bottom: 48px;
+    background: $gbf1;
+    
+    /* Prevent native touch events on Windows */
+    -ms-touch-action: none;
+
+    /* Prevent the callout on tap-hold and text selection */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* Prevent text resize on orientation change, useful for web-apps */
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+    
+    .swiper_box{
+        width: 100%;
+        overflow: hidden;
+        display: block;
+        img{
+            width: 100%;
+            display: block;
+        }
+    }
+    
+    .ad_box{
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 1%;
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+    .kinds_box{
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0% 1%;
+        overflow: hidden;
+        a{
+            width: 100%;
+            padding: 1%;
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+
+    }
+    #scroller{
+        /* Prevent elements to be highlighted on tap */
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+        /* Put the scroller into the HW Compositing layer right from the start */
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    
+}
+
+.loading{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255,255,255,0.8);
+        box-sizing: border-box;
+        text-align: center;
+        z-index: 100;
+        padding: 80% 0%;
+        
+//      span{
+//          display: inline-block;
+//          width: 20px;
+//          height: 20px;
+//          border-radius: 50%;
+//          background: $bg8e;
+//          transform: scale(0.8);
+//          animation: big .5s  infinite linear;
+//      }
+//      span:nth-child(2){
+//          animation-delay: 0.25s;
+//      }
+//      span:nth-child(3){
+//          animation-delay: 0.4s;
+//      }
+        
+}
+//
+//@keyframes big{
+//  0%{
+//      transform: scale(0.8);
+//  }
+//  50%{
+//      transform: scale(1.0);
+//  }
+//  100%{
+//      transform: scale(0.8);
+//  }
+//}
+
+.product_box{
+    width: 100%;
+    
+    ul{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    li{
+        list-style: none;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        padding: 2%;
+        box-sizing: border-box;
+        margin: 1% 0%;
+        background: white;
+        a{
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+        p{
+            color: #616b7f;
+        }
+        span{
+            color: #e80080;
+        }
+    }
+}
