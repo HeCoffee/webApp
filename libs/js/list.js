@@ -4,11 +4,6 @@ window.onload=function(){
 	var myScroll ;
 	iScroll(myScroll);
 	loadingPro();
-	//后退一页
-	$('header span:eq(0)').on('touchend',function(){
-		window.history.back(-1);
-		return false;
-	});
 	
 	//分类列表显示隐藏
 	$('.head_class div:eq(0)').on('touchend',function(){
@@ -36,10 +31,6 @@ window.onload=function(){
 		
 	});
 	
-	//导航显示隐藏
-	$('.head_top span:eq(1)').on('touchend',function(){
-		$('.navbox').toggle(300);
-	});
 }
 
 

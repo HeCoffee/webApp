@@ -1,14 +1,5 @@
 $(function(){
-	//后退一页
-	$('header span:eq(0)').on('touchend',function(){
-		window.history.back(-1);
-		return false;
-	});
 	
-	//导航显示隐藏
-	$('header span:eq(1)').on('touchend',function(){
-		$('.navbox').toggle(300);
-	});
 	//左侧导航栏标识
 	$('.left_box li').on('touchend',function(){
 		$('.left_box li').removeClass('active');
